@@ -1,0 +1,542 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Micro+5&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Minecrafter", sans-serif;
+  background-color: #3DAE2B;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.container {
+  max-width: 1390px;
+  margin: 0 auto;
+}
+
+header .container .header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 63px 0px 67px;
+}
+header .container .header-content nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 58px;
+}
+header .container .header-content nav ul li {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  text-align: center;
+  color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+header .container .header-content nav ul li:hover {
+  text-decoration: underline;
+}
+header .container .header-content button {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 136%;
+  text-align: center;
+  color: #fff;
+  padding: 14px;
+  -webkit-box-shadow: 3px 4px 0 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 3px 4px 0 0 rgba(0, 0, 0, 0.25);
+  background: #ff9b26;
+  border: 2px solid #061903;
+}
+header .container .header-content button:hover {
+  background-color: #9700C6;
+}
+header .container .header-text h1 {
+  font-weight: 400;
+  font-size: 159px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.25);
+  margin-bottom: 28px;
+}
+header .container .header-text p {
+  font-weight: 400;
+  font-size: 31px;
+  text-align: center;
+  color: #fff;
+  max-width: 626px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+header .container .header-text .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .container .header-text .link button {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 136%;
+  text-align: center;
+  color: #fff;
+  padding: 30px 60px;
+  -webkit-box-shadow: 6px 6px 0 0 rgba(0, 0, 0, 0.13);
+          box-shadow: 6px 6px 0 0 rgba(0, 0, 0, 0.13);
+  background: #ff9b26;
+  margin-bottom: 81px;
+  border-radius: 2px;
+}
+header .container .header-text .link button:hover {
+  background-color: #9700C6;
+}
+header .container .header-text .link .play-vedio {
+  -webkit-transform: translate(-200px, -95px);
+      -ms-transform: translate(-200px, -95px);
+          transform: translate(-200px, -95px);
+}
+
+.explore-minecraft {
+  background: #fffbdd;
+  padding-top: 27px;
+  border-radius: 166px 166px 0 0;
+  padding-left: 44px;
+  padding-right: 44px;
+}
+.explore-minecraft .container .play-now {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 29px 32px;
+  gap: 43px;
+  background-color: #3DAE2B;
+  border-radius: 166px;
+  margin-bottom: 110px;
+}
+.explore-minecraft .container .play-now p {
+  font-family: "Micro 5", sans-serif;
+  font-weight: 400;
+  font-size: 63px;
+  text-transform: uppercase;
+  color: #000;
+}
+.explore-minecraft .container .explore-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 64px;
+}
+.explore-minecraft .container .explore-text h2 {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 64px;
+  text-align: center;
+  max-width: 733px;
+}
+.explore-minecraft .container .explore-text .sword {
+  -webkit-transform: translate(-130px, 45px);
+      -ms-transform: translate(-130px, 45px);
+          transform: translate(-130px, 45px);
+}
+.explore-minecraft .container .cards1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 48px;
+}
+.explore-minecraft .container .cards1 .card-mountain {
+  background-image: url(../img/mountain.png);
+  max-width: 646px;
+  min-height: 646px;
+  width: 100%;
+  padding: 514px 24px 24px;
+  background-repeat: no-repeat;
+}
+.explore-minecraft .container .cards1 .card-mountain .card-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  background-color: #fff;
+  border-radius: 166px;
+  padding: 38px 55px;
+  -webkit-box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.4);
+  background: #3dae2b;
+  cursor: pointer;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.explore-minecraft .container .cards1 .card-mountain .card-text p {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 23px;
+  text-transform: uppercase;
+  color: #000;
+}
+.explore-minecraft .container .cards1 .card-mountain .card-text:hover {
+  background: #fffbdd;
+}
+.explore-minecraft .container .cards1 .card-trees {
+  background-image: url(../img/purple-trees.png);
+  max-width: 646px;
+  min-height: 646px;
+  width: 100%;
+  padding: 514px 24px 24px;
+  background-repeat: no-repeat;
+}
+.explore-minecraft .container .cards1 .card-trees .card-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  background-color: #fff;
+  border-radius: 166px;
+  padding: 40px 140px;
+  -webkit-box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.4);
+  background: #fffbdd;
+  cursor: pointer;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.explore-minecraft .container .cards1 .card-trees .card-text p {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 23px;
+  letter-spacing: 0em;
+  color: #000;
+}
+.explore-minecraft .container .cards1 .card-trees .card-text:hover {
+  background: #3dae2b;
+}
+.explore-minecraft .container .cards-natures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 110px;
+}
+.explore-minecraft .container .cards-natures .card-tree {
+  background-image: url(../img/trees.png);
+  max-width: 646px;
+  min-height: 646px;
+  width: 100%;
+  padding: 514px 24px 24px;
+  background-repeat: no-repeat;
+}
+.explore-minecraft .container .cards-natures .card-tree .card-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  background-color: #fff;
+  border-radius: 166px;
+  padding: 40px 160px;
+  -webkit-box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.4);
+  background: #fffbdd;
+  cursor: pointer;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.explore-minecraft .container .cards-natures .card-tree .card-text p {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 23px;
+  letter-spacing: 0em;
+  color: #000;
+}
+.explore-minecraft .container .cards-natures .card-tree .card-text:hover {
+  background: #3dae2b;
+}
+.explore-minecraft .container .cards-natures .card-flowers {
+  background-image: url(../img/flowers.png);
+  max-width: 646px;
+  min-height: 646px;
+  width: 100%;
+  padding: 514px 24px 24px;
+  background-repeat: no-repeat;
+}
+.explore-minecraft .container .cards-natures .card-flowers .card-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  background-color: #fff;
+  border-radius: 166px;
+  padding: 40px 140px;
+  -webkit-box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.4);
+  background: #fffbdd;
+  cursor: pointer;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.explore-minecraft .container .cards-natures .card-flowers .card-text p {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 23px;
+  letter-spacing: 0em;
+  color: #000;
+}
+.explore-minecraft .container .cards-natures .card-flowers .card-text:hover {
+  background: #3dae2b;
+}
+.explore-minecraft .container .animation-content .pickaxe {
+  position: absolute;
+  top: -60px;
+  left: 110px;
+}
+.explore-minecraft .container .animation-content .shovel {
+  position: absolute;
+  top: 30px;
+}
+.explore-minecraft .container .animation-content .sword2 {
+  position: absolute;
+  top: -50px;
+  left: 510px;
+}
+.explore-minecraft .container .animation-content .axe {
+  position: absolute;
+  left: 820px;
+  top: 20px;
+}
+.explore-minecraft .container .animation-content .text {
+  position: relative;
+  max-width: 806px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 64px !important;
+}
+.explore-minecraft .container .animation-content .text h3 {
+  font-weight: 400;
+  font-size: 64px;
+  color: #000;
+  text-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.25);
+}
+.explore-minecraft .container .animation-content .information-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 32px;
+  position: relative;
+  margin-bottom: 57px;
+}
+.explore-minecraft .container .animation-content .information-card .card-jordan1 {
+  -webkit-box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.25);
+  background: #9700C6;
+  border-radius: 0 64px 64px 0;
+  margin-bottom: 98px;
+}
+.explore-minecraft .container .animation-content .information-card .card-jordan1 img {
+  -webkit-transform: translateY(-47px);
+      -ms-transform: translateY(-47px);
+          transform: translateY(-47px);
+}
+.explore-minecraft .container .animation-content .information-card .card-jordan1 .info {
+  border-radius: 0 43px 37px 0;
+  -webkit-box-shadow: 6px 6px 0 0 #660086;
+          box-shadow: 6px 6px 0 0 #660086;
+  background: #fffbdd;
+  top: -50px;
+  position: relative;
+}
+.explore-minecraft .container .animation-content .information-card .card-jordan1 .info h4 {
+  -webkit-transform: translateX(-90px);
+      -ms-transform: translateX(-90px);
+          transform: translateX(-90px);
+  width: 100%;
+  text-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.25);
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  color: #000;
+}
+.explore-minecraft .container .animation-content .information-card .card-jordan1 .info p {
+  font-family: "Noto Sans", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000;
+}
+.explore-minecraft .container .animation-content .information-card .card-jordan2 {
+  -webkit-box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.25);
+  background: #3dae2b;
+  border-radius: 64px;
+  padding-bottom: 0;
+  margin-bottom: 57px;
+}
+.explore-minecraft .container .animation-content .information-card .card-jordan2 img {
+  -webkit-transform: translateY(-61px);
+      -ms-transform: translateY(-61px);
+          transform: translateY(-61px);
+}
+.explore-minecraft .container .animation-content .information-card .card-jordan2 .info {
+  border-radius: 43px 37px;
+  -webkit-box-shadow: 6px 6px 0 0 #660086;
+          box-shadow: 6px 6px 0 0 #660086;
+  background: #9700c6;
+  position: absolute;
+  top: 310px;
+  left: 415px;
+  padding: 54px 82px;
+}
+.explore-minecraft .container .animation-content .information-card .card-jordan2 .info h4 {
+  font-weight: 400;
+  font-size: 48px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.25);
+  margin-bottom: 16px;
+}
+.explore-minecraft .container .animation-content .information-card .card-jordan2 .info p {
+  font-family: "Noto Sans", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  max-width: 437px;
+}
+.explore-minecraft .container .animation-content .information-card .card-jordan3 {
+  -webkit-box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.25);
+  background: #9700C6;
+  border-radius: 64px 0 0 64px;
+  margin-bottom: 98px;
+}
+.explore-minecraft .container .animation-content .information-card .card-jordan3 img {
+  -webkit-transform: translateY(-47px);
+      -ms-transform: translateY(-47px);
+          transform: translateY(-47px);
+}
+.explore-minecraft .container .animation-content .information-card .card-jordan3 .info {
+  border-radius: 43px 0 0 37px;
+  -webkit-box-shadow: 6px 6px 0 0 #660086;
+          box-shadow: 6px 6px 0 0 #660086;
+  background: #fffbdd;
+  width: 100%;
+  max-width: 494px;
+  top: -50px;
+  position: relative;
+}
+.explore-minecraft .container .animation-content .information-card .card-jordan3 .info h4 {
+  -webkit-transform: translateX(80px);
+      -ms-transform: translateX(80px);
+          transform: translateX(80px);
+  text-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.25);
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  color: #000;
+}
+.explore-minecraft .container .animation-content .information-card .card-jordan3 .info p {
+  font-family: "Noto Sans", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000;
+}
+.explore-minecraft .container .animation-content .play-vedio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 64px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 19px;
+}
+.explore-minecraft .container .animation-content .play-vedio .oval {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 48px;
+}
+.explore-minecraft .container .animation-content .our-latest-bg .our-latest-text h4 {
+  font-weight: 400;
+  font-size: 64px;
+  text-align: center;
+  color: #000;
+}
